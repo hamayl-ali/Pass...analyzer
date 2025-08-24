@@ -27,5 +27,13 @@ L is the lenght of password
 
 T is the number of possible charecters used
 
+Breach---A data breach happens when hackers steal or leak sensitive information (like usernames, emails, and passwords) from a company’s database
+
+In Short 
+
+A breach = leaked/stolen password database.
+
+Breach check = making sure the password hasn’t been exposed before.
+
 # disclaimer
 this project is only for educational purpose :))
