@@ -37,3 +37,7 @@ Breach check = making sure the password hasn’t been exposed before.
 
 # disclaimer
 this project is only for educational purpose :))
+
+# Author
+
+hamayl ali 
