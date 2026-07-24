@@ -4,7 +4,7 @@ import math
 import hashlib
 import requests
 
-#i have added the breach for confirming that your entered password is really safe to use and is not compromised...
+#I have added the breach for confirming that your entered password is really safe to use and is not compromised...
 
 def breach(password):
     hash1=hashlib.sha1(password.encode("utf-8")).hexdigest().upper()
@@ -13,12 +13,12 @@ def breach(password):
     sufix= hash1[5:]
 
     url=f"https://api.pwnedpasswords.com/range/{prefix}"
-    #i used some try catch here just to make sure about the network requests
+    #I used some try catch here just to make sure about the network requests
     try:
         response=requests.get(url,timeout=5)
     except requests.exceptions.RequestException as e:
         return f"Network error: {e}"
-    #here i checked just API response validation 
+    #here I checked just API response validation 
 
     if response.status_code !=200:
         return f"error this api is not reachable"
