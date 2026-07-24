@@ -13,7 +13,7 @@ def breach(password):
     sufix= hash1[5:]
 
     url=f"https://api.pwnedpasswords.com/range/{prefix}"
-    #i used some try catch here just to make sure about the network requests
+    #I used some try catch here just to make sure about the network requests
     try:
         response=requests.get(url,timeout=5)
     except requests.exceptions.RequestException as e:
