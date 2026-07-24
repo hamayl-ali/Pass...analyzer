@@ -4,7 +4,7 @@ import math
 import hashlib
 import requests
 
-#i have added the breach for confirming that your entered password is really safe to use and is not compromised...
+#I have added the breach for confirming that your entered password is really safe to use and is not compromised...
 
 def breach(password):
     hash1=hashlib.sha1(password.encode("utf-8")).hexdigest().upper()
