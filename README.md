@@ -14,7 +14,7 @@ it also tell you about the entropy of your password...and its strength
 3-Classify password as Very Weak / Weak / Medium / Strong
 
 4-Check if the password has been breached (using SHA-1 hashing)
-
+.
 # REQUIRMENTS
 you must have python3
 
